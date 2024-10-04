@@ -1,3 +1,8 @@
+---
+title: Linear Algebra
+draft: false
+tags:
+---
 Gilbert Strang's linear algebra book
 Anstee Honours Lin Alg
 https://personal.math.ubc.ca/~anstee/math223/math223.html
