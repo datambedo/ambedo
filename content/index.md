@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to ambe.do notes
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is uses [Quartz](https://quartz.jzhao.xyz).

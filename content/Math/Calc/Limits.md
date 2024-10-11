@@ -1,6 +1,10 @@
-$$\lim_{x\to c}f(x)=L$$
+$$
+\lim_{x\to c}f(x)=L
+$$
 
-$$(\forall \epsilon > 0) (\exists \delta > 0) (\forall x \in \Re) (0 < |x-c| < \delta \implies |f(x)-L|<\epsilon)$$
+$$
+(\forall \epsilon > 0) (\exists \delta > 0) (\forall x \in \Re) (0 < |x-c| < \delta \implies |f(x)-L|<\epsilon)
+$$
 $f(x)$ is near $L$ , when $x$ is _suitably near c_.
 
 
