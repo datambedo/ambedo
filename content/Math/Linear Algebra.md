@@ -76,7 +76,7 @@ Where $x,y,z$ are coordinates of $\vec p$ and $A,B,C$ are coordinates   of $\vec
   
 ## Matrices  
   
-Basic definition:  
+### Basic definition  
 $$  
 A=  
 \begin{bmatrix}  
@@ -122,12 +122,13 @@ x_1 \vec a + x_2 \vec b
 $$
     This is now a linear combination of the column vectors of $A$.
 
-#### Null space
+### Null space
 $$
 N(A) = \{\vec x \in \mathbb{R}^n \ | \ A\vec x = \vec 0\}
 $$
 - The set of vectors that satisfy this is a subspace (refer to properties of subspace)
 - Given an $A$, find rrech form, write $\vec x$ as a linear combination with free variables, can be written as $span(\vec v_1 , ...)$ 
+
 ***Connection with linear independence***  
 $N(A)$ is the set of all $\vec x$ s.t.
 $$
@@ -138,7 +139,7 @@ where $\vec v_i$ are column vectors of $A$.
   
 $Nullity(A)=Dim(N(A))=num\ free\ variables\ of\ rref(A)$
 
-#### Column space
+### Column space
 $$
 A=
 \begin{bmatrix}
@@ -157,7 +158,7 @@ $$
 * *Something something about plane equation from the basis*  
 * $Rank(A)=Dim(C(A))$ i.e. find the size of the basis of $C(A$) (number of pivot cols of rref)  
   
-#### Properties of matrices  
+### Properties of matrices  
 $A + B = B + A; (commutativity)$  
 $A + (B + C) = (A + B) + C; (associativity)$  
 $A+0=A$ ; where 0 is a matrix of zeros  
@@ -170,21 +171,21 @@ In general $AB \neq BA$
 It could be that $AB = 0$ even if $A \neq 0$ and $B \neq 0$
     so, some things are not like scalars  
   
-#### Diagonal Matrix  
+### Diagonal Matrix  
 $$  
 \begin{bmatrix}  
 a & 0 \\  
 0 & b \\  
 \end{bmatrix}  
 $$  
-#### Identity Matrix  
+### Identity Matrix  
 $$  
 I=\begin{bmatrix}  
 1 & 0 \\  
 0 & 1 \\  
 \end{bmatrix}  
 $$  
-#### Matrix Decomposition  
+### Matrix Decomposition  
 Let $E_{ij} =$ matrix with a 1 in position $i, j$ and 0’s elsewhere. Then we have  
 $$  
 A=  
@@ -198,7 +199,7 @@ Then, we can write matrix multiplication as:
 $$
 AB = (aE_{11} +bE_{12} +cE_{21} +dE_{22})(eE_{11} +fE_{12} +gE_{21} +hE_{22})
 $$
-#### Inverse
+### Inverse
 An inverse matrix $A^{-1}$ is one where the following holds:  
 $$  
 AA^{-1}=I  
@@ -245,7 +246,7 @@ $(AB)^{-1}=B^{-1}A^{-1}$
 $det(AB)=det(A)det(B)$  
   
   
-##### 1-1 functions and Null Space  
+#### 1-1 functions and Null Space  
 A function that is 1:1 means it's inverse is also a function (functions may map many-one, meaning inverse is not a function).
 
 **Reminder on Null Space**
@@ -256,7 +257,7 @@ If $N(A)$ has a non-trivial solution, then $A$ is a many-one function.
 Proof: for any $\vec x_1 \in N(A)$ , we can add this to any $Ax=b$ solution.  
   
   
-#### Linear Transformations/Functions  
+### Linear Transformations/Functions  
 A transformation $T : R^n \to R^m$ is *linear* if it satisfies  
 $$  
 T(\vec{u}+\vec{v}) = T(\vec{u})+T(\vec{b})
@@ -275,7 +276,7 @@ A(\vec{u}+\vec{v}) = A\vec{u} + A\vec{v}; \space A(\alpha \vec{v}) = \alpha A\ve
 $$  
 (distributive rule)  
   
-#### Matrices are Linear Transformations
+### Matrices are Linear Transformations
 $$
 T(\vec x) = A\vec x
 $$
@@ -287,7 +288,7 @@ AND it is a linear transformation.
 
 
 **Function composition is Matrix Multiplication**
-#### Exploring Matrices as Linear Transformations
+### Exploring Matrices as Linear Transformations
 Dilations: Diagonal matrices (stretch initial vector)  
 Rotations: TODO  
   
@@ -299,7 +300,7 @@ $$
 T(\vec x) = T(x_1 \vec e_1 + ...) = x_1 T(\vec e_1) + ... = T \vec x
 $$  
 Where at the end, $T$ is a matrix where the columns are the basis vectors with the transformation applied to them. At the beginning, $T()$ is any linear transformation. 
-#### Projections
+### Projections
 $$
 Proj_L(\vec x)=(\frac{\vec x \cdot \vec v}{\vec v \cdot \vec v}) \vec v = (\vec x \cdot \hat u) \hat u
 $$
