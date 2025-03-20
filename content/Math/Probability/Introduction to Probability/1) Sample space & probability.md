@@ -3,6 +3,8 @@
 - **Set**: A collection of objects (elements).
   - Notation: If $x \in S$, it means $x$ is an element of $S$.
   - **Empty Set**: $\emptyset$ contains no elements.
+  - Universal Set: $\Omega$
+    - This is a set of all conceivable objects of interest in a context
 
 - **Set Operations**:
   - **Union**: $A \cup B = \{ x \mid x \in A \text{ or } x \in B \}$
@@ -41,6 +43,10 @@ $$
   P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \quad \text{if } P(B) > 0
  $$
   - Conditional probability forms a valid probability law.
+  - Note then that:
+$$
+  P(A \mid B) P(B) = P(B \mid A) P(A)
+$$
   
 - **Multiplication Rule**: For events $A_1, A_2, \dots, A_n$:
  $$
@@ -60,7 +66,7 @@ $$
  $$
   P(B_i \mid A) = \frac{P(A \mid B_i) P(B_i)}{\sum_{j=1}^{n} P(A \mid B_j) P(B_j)}
  $$
-
+* Bottom is $P(A)$ from *Total Probability Theorem*
 #### 1.6 Independence
 
 - Events $A$ and $B$ are **independent** if:
@@ -69,11 +75,20 @@ $$
  $$
 
 #### 1.7 Counting Methods
-
-- **Permutations**: The number of ways to arrange $n$ distinct objects is:
+- **Counting Principle:**
+Consider a process with $r$ stages s.t:
+1. There are $n_1$ possible results at the first stage
+2. For every possible result at the first stage, there are $n_2$ possible results at the second.
+3. And so on, then the total possible results at the $r$ stage is:
+$$n_1 n_2 \dots n_r$$
+- **Permutations**: 
+    - The number of ways to arrange $n$ distinct objects is:
  $$
   P(n) = n!
  $$
+     - Arranging $k$ objects of $n$ is:
+$$n(n-1)(n-2) \dots (n-k+1)=\frac{n!}{(n-k)!}$$
+    - *Justification: counting principle*
 - **Combinations**: The number of ways to choose $k$ objects from $n$ is:
  $$
   C(n, k) = \frac{n!}{k!(n-k)!}

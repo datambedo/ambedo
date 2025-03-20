@@ -34,11 +34,19 @@
   $$
   E[X] = \sum_x x p_X(x)
   $$
+- **Moment** (n-th):
+$$E[X^n]$$
 - **Variance**: The variance of $X$ measures the spread of its values:
-  $$
+$$Var(X)=E[(X-E[X])^2]$$
+$$=E[X^2 -2E[X]X + (E[X])^2]$$
+$$= E[X^2] - 2E[X]E[X] + (E[X])^2$$
+$$
   \text{Var}(X) = E[X^2] - (E[X])^2
   $$
-  
+- **Standard Deviation**: measures spread (like variance) but same units as $X$
+$$\sigma_{X}=\sqrt{var(X)}$$
+##### Expected Value rule for Functions of Random Variables
+$$E[g(X)]=\sum_x g(x)p_X(x)$$
 #### 2.5 Joint PMFs of Multiple Random Variables
 
 - **Joint PMF**: For two random variables $X$ and $Y$, the joint PMF is $p_{X,Y}(x,y)$, which gives the probability of the event $X = x$ and $Y = y$:
@@ -49,13 +57,15 @@
   $$
   p_X(x) = \sum_y p_{X,Y}(x,y)
   $$
-
+Table example
+![[Pasted image 20250311152042.png]]
 #### 2.6 Conditioning
 
 - **Conditional PMF**: The conditional PMF of $X$ given $Y = y$ is:
   $$
   p_{X|Y}(x|y) = \frac{p_{X,Y}(x,y)}{p_Y(y)}, \quad \text{if } p_Y(y) > 0
   $$
+ ![[Pasted image 20250311153955.png]]
   - The **Total Expectation Theorem** relates the expectation of $X$ to the conditional expectations:
   $$
   E[X] = \sum_y p_Y(y) E[X|Y = y]
@@ -88,6 +98,7 @@
      p_X(k) = \binom{n}{k} p^k (1 - p)^{n-k}, \quad k = 0, 1, \dots, n
      $$
    - Expectation: $E[X] = np$, Variance: $\text{Var}(X) = np(1 - p)$
+   - *See [[1) Sample space & probability#1.6 Independence]] for intuition*
 
 3. **Geometric Random Variable**:
    - Counts the number of trials until the first success.
@@ -97,4 +108,11 @@
      $$
    - Expectation: $E[X] = \frac{1}{p}$, Variance: $\text{Var}(X) = \frac{1 - p}{p^2}$
 
-Let me know if you'd like to proceed to Chapter 3!
+4. **Poisson Random Variable**:
+   - Approximation of Binomial where $p$ is small and $n$ is large.
+   - PMF:
+     $$
+     p_X(k) = e^{-\lambda}\frac{\lambda ^ k}{k!}, \quad k = 1, 2, \dots
+     $$
+   - Expectation: $E[X] = \lambda$, $Var(X) = \lambda$
+   - See [[6) Bernoulli and Poisson]]
