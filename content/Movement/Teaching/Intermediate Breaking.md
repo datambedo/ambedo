@@ -543,3 +543,69 @@ LEARNING GOALS
 - Stacking using tw (if direct hard)
 - Roll backs
 - BS freeze
+
+# CLASS 13
+### Warmup
+- fw/bw side-side w/ 4 count pause
+
+No New Content
+### Fundamentals
+1. BL CC spin-up
+2. BL sweep zipper
+3. BL 6-step BL
+4. CC fw 1/2 way bw
+### Battle Prep
+- Prelim:
+    - BEST STUFF, STATEMENT, STRONG FINISH
+    - Note-book, write intention
+    - 1v1
+    - Debrief: what went well, what didn't, how can you do better next time?
+    - 1v1 one more round depending on time.
+- What next?
+1. Remaining Arsenal
+2. Freestyle Tools:
+    1. Shape 3 times (freeze)
+    2. GHOST concepts
+
+LEARNING GOALS
+- Battle Prep Process
+- Tools to Help Through The Moment
+
+# CLASS 14 LAST CLASS
+Tomorrow is BATTLE DAY.
+Today we MOBILIZE.
+- [x] Wrists
+- [x] Shoulders
+- [x] Ankles
+- [x] Knees
+- [x] Back! Spine!
+- [x] Neck
+## Stretch Series
+ - Arm circles, twist, matrix
+ - External rotation, Internal rotation
+---
+ - Squat, pike
+ - Downward Dog (shoulders, lats)
+---
+ - 45 deg, 90 deg
+ - T, Y, I
+ - Arm Under Body Stretch
+ - Low Seal (w/ neck), High Seal, cat/dog
+ - Side seal
+ - Back Stretch using Shin
+ - Towel Wringing
+ - Neck stretch
+ - Bear-Bridge
+---
+- Wrist routine
+---
+- Calf stretch, Hamstrings, pike hold
+- Hip Flexor
+- Ankles: achilles, sit, outside
+- Quads
+---
+- Pigeon
+- Side-side, frog, straddle, relax, sock hold
+
+Learning Goals:
+- Check in on body, mobilize
